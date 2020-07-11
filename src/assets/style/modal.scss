@@ -1,0 +1,49 @@
+.modal-content {
+  border-radius: 0;
+  border: none;
+
+  .modal-header {
+    color: white;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: var(--primary);
+
+    .close {
+      color: white;
+    }
+  }
+
+  .modal-body {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+
+    .form-control {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+      }
+    }
+  }
+
+  .modal-footer {
+    border-radius: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: var(--primary);
+  }
+
+  .btn-primary {
+    border-radius: 0;
+    border: none;
+    background: var(--success);
+  }
+
+  .btn-secondary {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+  }
+}
